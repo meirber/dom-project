@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #ffdecb;
+    display: flex;
+    color: #4d4d4d;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'ariel';
+    font-style: oblique;
+    font-size: 20px;
+    padding: 10px;
+    height: 25px;
+}
+
+header>* {
+    padding: 0 10px;
+    margin: 0;
+}
+
+#divImg * {
+    height: 20px;
+    width: 20px;
+    margin: 2.5px;
+}
+
+#divImg *:hover {
+    cursor: pointer;
+    height: 25px;
+    width: 25px;
+    margin: 0px;
+}
+
+footer {
+    background-color: #4d4d4d;
+    color: rgb(250, 226, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    height: 20px;
+    width: 20px;
+}
+
+footer * {
+    padding: 10px;
+}
+#firstRowDiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFBF9B;
+    height: 50px;
+}
+#divLeft{
+    display: flex;
+    width: 52%;
+    justify-content: flex-end;
+}
+.buttons{
+    border:1px solid black;
+    margin: 2px;
+    padding: 5px;
+    border-radius: 15px;
+}
+#divRight{
+    display: flex;
+    justify-content: center;
+    width: 48%;
+}
+#search{
+    border-radius: 15px  0 0 15px;
+    border: 0;
+    height: 30px;
+    width: 300px;
+}
+#searchButton{
+    height: 32px;
+    width: 30px;
+    background-color: rgb(231, 227, 227);
+    border-radius: 0 15px 15px 0;
+}
+.divCard{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 5px;
+}
+.images{
+    width: 110px;
+    margin: 10px;
+}
+#mainDiv{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f5ebeb;
+    justify-content: center;
+    min-height: 71vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#pMain{
+  font-size: 37px;
+  margin: 0;
+}
+
+#divProdacts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divImage{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    border-radius: 15px 15px 0 0;
+    height: 50%;
+}
+.titleDiv{
+    background-color: #ffdecb;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+    border-radius: 0 0 15px 15px;
+    text-align: center;
+    font-weight: bold;
+    flex-direction: column;
+}
+.iconsTitle{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 7px;
+    border: 1px solid #ffdecb;
+
+
+}
+.iconsTitle:hover{
+    height: 20px;
+    width: 20px;
+    background-color: #F9F5EB ;
+    border: 1px solid #E4DCCF;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 7px;
+}
+
+#productDiv{
+    border: 1px solid black;
+    border-radius: 15px;
+}
+#pageDiv1{
+    min-height: 76.3vh;
+}
